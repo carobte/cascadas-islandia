@@ -10,9 +10,10 @@
 /* Colores de variables */ 
 
 :root{
-    --oscuro: #165952;
+    --verde-oscuro: #165952;
     --darker: #0a2928;
     --lighter: #cff8ed;
+    --white-opacity: #ffffffc9;
 }
 
 /* Scroll*/
@@ -22,13 +23,14 @@ html{
 }
 
 section{
-    scroll-margin-top: 80px;
+    scroll-margin-top: 100px;
 }
 
 /* Generales */
 
-h1, h2{
-    color: var(--darker);
+.title-center{
+    color: var(--verde-oscuro);
+    padding: 20px 30px;
 }
 
 /* Header */
@@ -42,8 +44,9 @@ h1, h2{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: var(--oscuro);
+    background-color: var(--verde-oscuro);
     position: fixed;
+    z-index: 1;
     width: 100%;
 }
 
@@ -61,4 +64,55 @@ h1, h2{
 
 #inicio{
     padding-top: 100px;
+}
+
+/* Primera Sección */
+
+#inicio{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+}
+
+#inicio p{
+    margin: 30px;
+}
+
+/* Secciones de cascada */ 
+
+.container{
+    position: relative;
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.img-cascada{
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.title-cascada{
+    position: absolute;
+    top: 0;
+    background-color:var(--white-opacity);
+    width: 100%;
+    color: var(--verde-oscuro);
+    text-transform: uppercase;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.text-cascada{
+    width: 70%;
+    text-align: center;
 }
