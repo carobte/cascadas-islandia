@@ -85,6 +85,7 @@ section{
     margin: auto;
     text-align: center;
     height: 100vh;
+    gap: 10px;
 }
 
 #inicio p{
