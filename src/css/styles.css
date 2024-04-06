@@ -145,7 +145,7 @@ legend{
 }
 
 .campo{
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .input{
@@ -153,6 +153,11 @@ legend{
     border-radius: 5px;
     width: 100%;
     padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.input:focus{
+    outline: 1px solid var(--verde-oscuro);
 }
 
 #enviar{
@@ -163,4 +168,20 @@ legend{
     padding: 10px;
     width: 50%;
     margin: 0 25%;
+}
+
+/* Footer */
+
+#footer{
+    color: var(--lighter);
+text-align: center;
+    padding: 10px 0;
+    background-color: var(--darker);
+    margin-top: 40px;
+}
+
+#footer a{
+    text-decoration: underline;
+    color: var(--lighter);
+    font-weight: bolder;
 }
