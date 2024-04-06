@@ -37,6 +37,7 @@
     <main>
         <section id="inicio">
             <h1 class="title-center">Top 5 cascadas de Islandia</h1>
+            <iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/4Qp4fbg5rLY?si=AgFqef3nHhugjDPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>Islandia es el país donde las fuerzas de la naturaleza dejan impresionado a todo el que llega. Desde
                 volcanes y glaciares hasta playas de arena negra y espectaculares cascadas, el país regala paisajes que
                 son de
@@ -169,30 +170,31 @@
         <section id="contacto">
             <form action="/" method="post">
                 <h2 class="title-center">Contacto</h2>
-                <legend>¿Deseas más información acerca de estas cascadas o conocer las demás?
+                <legend class="center">¿Deseas más información acerca de estas cascadas o conocer más acerca de Islandia?
                 </legend>
-                <p>¡Déjanos tus datos y nos pondremos en contacto!</p>
-                <fieldset>
+                <p class="center">¡Déjanos tus datos y nos pondremos en contacto!</p>
+                <fieldset class="campo">
                     <label for="nombre" name="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre aquí"
+                    <input class="input" type="text" name="nombre" id="nombre" placeholder="Escriba su nombre aquí"
                         required>
                 </fieldset>
-                <fieldset>
+                <fieldset class="campo">
                     <label for="correo">Correo: </label>
-                    <input type="email" name="correo" id="correo" required
+                    <input class="input" type="email" name="correo" id="correo" required
                         placeholder="ejemplo@correo.com">
                 </fieldset>
-                <fieldset>
-                    <label for="mensaje">Mensaje: (Opcional)</label>
-                    <textarea required name="mensaje" id="mensaje" cols="20" rows="5"
+                <fieldset class="campo">
+                    <label class="input" for="mensaje">Mensaje: (Opcional)</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"
                         placeholder="Escriba aquí su mensaje"></textarea>
                 </fieldset>
-                <button type="submit">Enviar</button>
+                <button id="enviar" type="submit">Enviar</button>
             </form>
         </section>
     </main>
     <footer>
 
+        <h2>footer</h2>
     </footer>
 </body>
 
